@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+<table border="2" bordercolor="black" width="300" cellspacing="0" cellpadding="5">
+ <tr *ngFor="let contactData of contactList">
+   <td>{{contactData.username}}</td>
+   <td>{{contactData.email}}</td>
+   <td>{{contactData.company.name}}</td>
+ </tr>
+</table>
